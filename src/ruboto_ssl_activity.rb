@@ -1,6 +1,13 @@
 require 'ruboto/widget'
 require 'ruboto/util/toast'
 
+#require 'jruby/openssl'
+#require 'jruby'
+#Java::JopensslService.new.basicLoad(JRuby.runtime)
+
+require 'net/https'
+require 'json'
+
 ruboto_import_widgets :Button, :LinearLayout, :TextView
 
 # http://xkcd.com/378/
